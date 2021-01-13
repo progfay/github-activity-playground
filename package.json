@@ -4,7 +4,8 @@
   "description": "Playground with RSS for GitHub Activity",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/progfay/github-activity-playground/issues"
   },
-  "homepage": "https://github.com/progfay/github-activity-playground#readme"
+  "homepage": "https://github.com/progfay/github-activity-playground#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "rss-parser": "^3.10.0"
+  }
 }
