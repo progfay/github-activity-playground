@@ -1,0 +1,22 @@
+{
+  "name": "github-activity-playground",
+  "version": "1.0.0",
+  "description": "Playground with RSS for GitHub Activity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/progfay/github-activity-playground.git"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "progfay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/progfay/github-activity-playground/issues"
+  },
+  "homepage": "https://github.com/progfay/github-activity-playground#readme"
+}
